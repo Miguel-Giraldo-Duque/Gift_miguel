@@ -58,3 +58,7 @@ header .textos.header{
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.text-gift{
+    font-family:'Roboto', sans-serif; ;
+}
