@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 600px;
+    background-color: #bc4e9c;
+    background: #D3CCE3; 
+    background: -webkit-linear-gradient(to right, hsl(265, 29%, 92%), hsl(258, 29%, 85%)) url(./img/fondo.jpg) ;  
+    background: linear-gradient(to right, hsl(265, 29%, 92%), hsl(258, 29%, 85%)) ;
+    background: url(./IMagens/Undertale..png) ;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    
+}
+
+
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100% 
+    ;
+}
+
+header .textos.header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align:center;
+    font-family:  'Roboto', sans-serif;
+}
+
+.textos.header h1{
+    font-size: 50px;
+    color:rgb(240, 4, 4);
+    font-weight: 300;
+}
+
+.textos.header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.imagen_icon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    border-image: url(./IMagens/giftbox.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
